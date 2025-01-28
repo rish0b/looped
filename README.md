@@ -1,2 +1,2 @@
-# bridge
-Bridge closes the gap between AI and humans for seamless collaboration.
+# post
+Post delivers seamless collaboration between AI and humans, right to your inbox.
