@@ -7,7 +7,9 @@ charset-normalizer==3.4.1
 frozenlist==1.5.0
 idna==3.10
 multidict==6.1.0
+-e git+https://github.com/rish0b/bridge.git@4057bf5fc8c544b2746d76201c8d20ad9d29d7ee#egg=post
 propcache==0.2.1
+python-dotenv==1.0.1
 requests==2.32.3
 urllib3==2.3.0
 yarl==1.18.3

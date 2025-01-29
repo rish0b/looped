@@ -1,5 +1,5 @@
 import requests
-from utils import setup_logger
+from .utils import setup_logger
 
 class Webhook:
     def __init__(self, handler, silent=False):

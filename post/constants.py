@@ -12,13 +12,14 @@ POLLING_SUCCESS = "Polling succeeded for message ID {message_id}."
 # Webex API Endpoints
 WEBEX_BASE_URL = "https://webexapis.com/v1"
 WEBEX_MESSAGES_ENDPOINT = f"{WEBEX_BASE_URL}/messages"
+WEBEX_DIRECT_MESSAGES_ENDPOINT = f"{WEBEX_BASE_URL}/messages/direct"
 WEBEX_ATTACHMENT_ACTIONS_ENDPOINT = f"{WEBEX_BASE_URL}/attachment/actions"
 WEBEX_WEBHOOKS_ENDPOINT = f"{WEBEX_BASE_URL}/webhooks"
 
 # Outlook API Endpoints
 OUTLOOK_BASE_URL = "https://graph.microsoft.com/v1.0"
-OUTLOOK_SEND_MAIL_ENDPOINT = f"{OUTLOOK_BASE_URL}/me/sendMail"
-OUTLOOK_MESSAGES_ENDPOINT = f"{OUTLOOK_BASE_URL}/me/messages"
+OUTLOOK_SEND_MAIL_ENDPOINT = "{OUTLOOK_BASE_URL}/users/{bot_email}/sendMail"
+OUTLOOK_MESSAGES_ENDPOINT = "{OUTLOOK_BASE_URL}/users/{bot_email}/messages"
 OUTLOOK_SUBSCRIPTIONS_ENDPOINT = f"{OUTLOOK_BASE_URL}/subscriptions"
 # tenant id can be set to "common" for most cases. allow users to pass in tenant_id if they belong to an org
 OUTLOOK_TOKEN_URL = "https://login.microsoftonline.com/{tenant_id}/oauth2/v2.0/token"

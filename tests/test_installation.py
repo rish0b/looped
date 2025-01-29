@@ -5,3 +5,5 @@ from post import Webex, Outlook
 # webex.send_message("Hello, Webex!")
 
 outlook = Outlook()
+message_id = outlook.send_message(body="Hello, Outlook!", subject="Test Email", to_email="rishabravikumar@yahoo.com")
+print(message_id)
