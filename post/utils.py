@@ -1,6 +1,4 @@
 import logging
-import time
-import requests
 
 # Logging setup
 def setup_logger(silent=False):

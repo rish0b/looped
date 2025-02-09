@@ -1,25 +1,9 @@
 from .webex import Webex
-from .polling import Polling
+from .polling import start_polling
 from .webhook import Webhook
 from .auth_manager import AuthManager
 from .handler import Handler
-from .constants import (
-    ERROR_MISSING_CREDENTIALS,
-    ERROR_AUTHENTICATION_FAILED,
-    ERROR_MESSAGE_SEND_FAILED,
-    POLLING_TIMEOUT,
-    POLLING_SUCCESS,
-    WEBEX_BASE_URL,
-    WEBEX_MESSAGES_ENDPOINT,
-    WEBEX_ATTACHMENT_ACTIONS_ENDPOINT,
-    WEBEX_WEBHOOKS_ENDPOINT,
-    OUTLOOK_BASE_URL,
-    OUTLOOK_SEND_MAIL_ENDPOINT,
-    OUTLOOK_MESSAGES_ENDPOINT,
-    OUTLOOK_SUBSCRIPTIONS_ENDPOINT,
-    OUTLOOK_TOKEN_URL,
-    OUTLOOK_SCOPE_URL
-)
+from .utils import setup_logger
 from .config import (
     WEBEX_ACCESS_TOKEN,
     OUTLOOK_ACCESS_TOKEN,

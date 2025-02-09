@@ -2,7 +2,7 @@ Metadata-Version: 2.2
 Name: post
 Version: 0.1.0
 Summary: Post delivers seamless collaboration between AI and humans, right to your inbox.
-Home-page: https://github.com/rish0b/bridge
+Home-page: https://github.com/rish0b/post
 Author: rish0b
 Author-email: rishabravikumar@gmail.com
 Classifier: Programming Language :: Python :: 3
